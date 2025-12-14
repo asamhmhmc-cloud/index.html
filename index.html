@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع خدمات رقمية متكاملة</title>
-    <!-- يمكنك هنا إضافة شفرة تتبع Google Analytics بعد النشر -->
-    <!-- مثال: <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+    <title>محفظة تكنولوجيا الابتكار | خدمات رقمية وتطوير تطبيقات</title>
+    
+    <meta name="description" content="محفظة تكنولوجيا الابتكار: نقدم حلولاً تقنية متكاملة، تطوير تطبيقات الهواتف (iOS و Android)، تسويق رقمي، وتصميم مواقع متجاوب. ابدأ مشروعك التقني معنا.">
 
-    <!-- تضمين مكتبة Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- إعدادات Tailwind لتطبيق خط Cairo (الخط الأساسي) -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Cairo:wght@400;700;900&display=swap');
         body {
@@ -36,15 +34,12 @@
 </head>
 <body class="min-h-screen antialiased">
 
-    <!-- 1. شريط التنقل (Header) -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <!-- الشعار -->
             <a href="#" class="text-2xl font-black text-primary-blue hover:text-accent-orange transition duration-300">
                 تكنولوجيا الابتكار
             </a>
             
-            <!-- أزرار التنقل (لشاشات سطح المكتب) -->
             <nav class="hidden md:flex space-x-8 space-x-reverse text-lg">
                 <a href="#hero" class="text-gray-600 hover:text-primary-blue transition duration-300 font-medium">الرئيسية</a>
                 <a href="#services" class="text-gray-600 hover:text-primary-blue transition duration-300 font-medium">الخدمات</a>
@@ -52,13 +47,11 @@
                 <a href="#contact" class="text-gray-600 hover:text-primary-blue transition duration-300 font-medium">اتصل بنا</a>
             </nav>
 
-            <!-- زر القائمة (لشاشات الهاتف) -->
             <button id="menu-button" class="md:hidden text-primary-blue focus:outline-none p-2 rounded-lg hover:bg-gray-100 transition">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </div>
 
-        <!-- قائمة الهاتف المنبثقة -->
         <nav id="mobile-menu" class="hidden md:hidden bg-white px-4 pb-2 border-t border-gray-100">
             <a href="#hero" class="block py-2 text-gray-700 hover:bg-gray-50 rtl-text rounded-md font-medium">الرئيسية</a>
             <a href="#services" class="block py-2 text-gray-700 hover:bg-gray-50 rtl-text rounded-md font-medium">الخدمات</a>
@@ -67,12 +60,11 @@
         </nav>
     </header>
 
-    <!-- 2. قسم البطل (Hero Section) - تم تحديث العنوان والوصف -->
     <main id="hero" class="pt-16 pb-20 md:pt-24 md:pb-32 bg-primary-blue text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl rtl-text">
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 animate-fade-in">
-                    حلول تقنية متكاملة لنمو أعمالك
+                    تكنولوجيا الابتكار: حلول تقنية متكاملة لنمو أعمالك
                 </h1>
                 <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl animate-fade-in-delay">
                     نقدم خدمات تطوير تطبيقات الهواتف والتسويق الرقمي بفعالية لضمان تحقيق أهدافك الرقمية.
@@ -84,18 +76,16 @@
         </div>
     </main>
 
-    <!-- 3. قسم الخدمات (Features/Services) -->
     <section id="services" class="py-20 md:py-28">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="rtl-text mb-12">
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800 border-b-4 border-accent-orange inline-block pb-1">
-                    خدماتنا الأساسية
+                    خدماتنا الأساسية في التكنولوجيا والابتكار
                 </h2>
                 <p class="mt-4 text-xl text-gray-600">نحن نغطي كل احتياجات عملك الرقمي.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- بطاقة الخدمة 1: تطوير تطبيقات الهواتف -->
                 <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 transform hover:-translate-y-1">
                     <div class="text-primary-blue mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
@@ -104,7 +94,6 @@
                     <p class="text-gray-600 rtl-text">بناء تطبيقات قوية وسهلة الاستخدام لنظامي iOS و Android، مع التركيز على تجربة المستخدم والأداء.</p>
                 </div>
 
-                <!-- بطاقة الخدمة 2: التسويق الرقمي الفعال -->
                 <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 transform hover:-translate-y-1">
                     <div class="text-primary-blue mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
@@ -113,7 +102,6 @@
                     <p class="text-gray-600 rtl-text">خطط تسويقية شاملة تشمل تحسين محركات البحث (SEO)، وإعلانات الدفع مقابل النقر (PPC)، وحملات وسائل التواصل الاجتماعي.</p>
                 </div>
 
-                <!-- بطاقة الخدمة 3: تصميم المواقع المتجاوب -->
                 <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 transform hover:-translate-y-1">
                     <div class="text-primary-blue mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1.474-.827A1 1 0 017 19.333V4a1 1 0 011-1h8a1 1 0 011 1v15.333a1 1 0 01-.526.827L15 20l-.75-3H9.75z"></path></svg>
@@ -125,7 +113,6 @@
         </div>
     </section>
 
-    <!-- 4. قسم المشاريع (Mock Projects) - أسماء المشاريع الوهمية -->
     <section id="projects" class="bg-gray-100 py-20 md:py-28">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="rtl-text mb-12">
@@ -136,7 +123,6 @@
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- مشروع 1: منصة "منجز" لإدارة المهام -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-lg">
                     <img src="https://placehold.co/600x400/1c4e80/ffffff?text=منجز" alt="منصة منجز" class="w-full h-48 object-cover" onerror="this.onerror=null; this.src='https://placehold.co/600x400/1c4e80/ffffff?text=منجز';">
                     <div class="p-4 rtl-text">
@@ -145,7 +131,6 @@
                     </div>
                 </div>
 
-                <!-- مشروع 2: تطبيق "سوقي" للتجارة الإلكترونية -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-lg">
                     <img src="https://placehold.co/600x400/ff6b35/ffffff?text=سوقي" alt="تطبيق سوقي" class="w-full h-48 object-cover" onerror="this.onerror=null; this.src='https://placehold.co/600x400/ff6b35/ffffff?text=سوقي';">
                     <div class="p-4 rtl-text">
@@ -154,7 +139,6 @@
                     </div>
                 </div>
 
-                <!-- مشروع 3: نظام "نماء" لتحليل البيانات -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-lg">
                     <img src="https://placehold.co/600x400/1c4e80/ffffff?text=نماء" alt="نظام نماء" class="w-full h-48 object-cover" onerror="this.onerror=null; this.src='https://placehold.co/600x400/1c4e80/ffffff?text=نماء';">
                     <div class="p-4 rtl-text">
@@ -166,7 +150,6 @@
         </div>
     </section>
 
-    <!-- 5. قسم التواصل (Contact Form) -->
     <section id="contact" class="py-20 md:py-28">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="rtl-text mb-12 text-center">
@@ -174,22 +157,17 @@
                     تواصل معنا
                 </h2>
                 <p class="mt-4 text-xl text-gray-600">لنناقش مشروعك القادم ونحوله إلى نجاح.</p>
-                <!-- معلومات الاتصال المباشرة -->
                 <div class="mt-6 text-xl text-gray-700 space-y-2">
-                    <!-- عنوان البريد الإلكتروني القابل للنقر -->
                     <p class="font-semibold">البريد الإلكتروني: 
-                        <a href="mailto:info@technology-innovation.com" class="text-primary-blue hover:text-accent-orange transition duration-300">info@technology-innovation.com</a>
+                        <a href="mailto:asamhmhmc@gmail.com" class="text-primary-blue hover:text-accent-orange transition duration-300">asamhmhmc@gmail.com</a>
                     </p>
-                    <!-- رقم الهاتف القابل للنقر -->
                     <p class="font-semibold">هاتف: 
-                        <a href="tel:+967770123456" class="text-primary-blue hover:text-accent-orange transition duration-300">+967 770 123 456</a>
+                        <a href="tel:+967716419044" class="text-primary-blue hover:text-accent-orange transition duration-300">+967 716 419 044</a>
                     </p>
                 </div>
-                <!-- نهاية معلومات الاتصال المباشرة -->
-            </div>
+                </div>
             
             <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl">
-                <!-- نموذج اتصال وهمي - لا يرسل بيانات فعلياً -->
                 <form onsubmit="event.preventDefault(); showMessage();" class="space-y-6">
                     <div class="rtl-text">
                         <label for="name" class="block text-sm font-medium text-gray-700 mb-1">الاسم الكامل</label>
@@ -208,7 +186,6 @@
                     </button>
                 </form>
 
-                <!-- صندوق الرسائل المخصص (بديل لـ alert) -->
                 <div id="message-box" class="hidden fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center p-4 z-50 transition-opacity duration-300">
                     <div class="bg-white p-8 rounded-xl shadow-2xl max-w-sm w-full rtl-text">
                         <h3 class="text-xl font-bold text-primary-blue mb-4">تم الإرسال بنجاح!</h3>
@@ -220,14 +197,13 @@
         </div>
     </section>
 
-    <!-- 6. التذييل (Footer) -->
     <footer class="bg-gray-800 text-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-lg font-semibold mb-2">تكنولوجيا الابتكار</p>
             <p class="text-sm text-gray-400">
                 جميع الحقوق محفوظة &copy; <span id="current-year">2024</span>
                 <span class="mx-2">|</span>
-                <a href="mailto:info@technology-innovation.com" class="hover:text-accent-orange transition">info@technology-innovation.com</a>
+                <a href="mailto:asamhmhmc@gmail.com" class="hover:text-accent-orange transition">asamhmhmc@gmail.com</a>
                 <span class="mx-2">|</span>
                 <a href="#contact" class="hover:text-accent-orange transition">سياسة الخصوصية</a>
             </p>
@@ -264,4 +240,3 @@
 
 </body>
 </html>
-
